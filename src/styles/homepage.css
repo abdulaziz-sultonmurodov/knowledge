@@ -1,0 +1,19 @@
+.home-container {
+    background-image:  url(../images/bigben.webp) ;
+    width: 100%;
+    height: 90vh;
+}
+.button-home { 
+    box-shadow: 0 0 20px #0057ff;
+    transition: 0.5s;
+}
+.button-home:hover {
+    transform: scale(0.90);
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .home-position {
+        left: 0%;
+    }
+}

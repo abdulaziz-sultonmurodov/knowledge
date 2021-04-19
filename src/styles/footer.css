@@ -1,0 +1,9 @@
+footer {
+    background-color: #000000cc;
+}
+@media only screen and (max-width: 800px) {
+    .footer-container  {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
